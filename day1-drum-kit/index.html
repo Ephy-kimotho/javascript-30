@@ -81,11 +81,26 @@
       const key = document.querySelector(`div.key[data-key="${event.keyCode}"]`)
 
       if (audio === null) {
-        return // remove the function from call stack
+        return
       }
       audio.currentTime = 0
       audio.play()
       key.classList.add("playing")
+    }
+
+
+    function playSound2(event) {
+      const keyDiv = event.target.parentNode
+      if (keyDiv) {
+        const keyId = keyDiv.dataset.key
+        const audio = document.querySelector(`audio[data-key='${keyId}']`)
+        if (audio) {
+          audio.currentTime = 0
+          audio.play()
+          keyDiv.classList.add("playing")
+        }
+      }
+
     }
 
     function removeTransition() {
@@ -100,6 +115,7 @@
     }
 
     window.addEventListener("keydown", playSound)
+    window.addEventListener("click", playSound2)
     removeTransition()
 
   </script>
