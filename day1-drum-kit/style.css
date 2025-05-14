@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 html {
   font-size: 10px;
   background: url('./drums.avif') no-repeat;
