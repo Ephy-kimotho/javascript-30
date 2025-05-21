@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 180, 180);
+}
+
+
+.traffic-light {
+    width: 100px;
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #660000;
+    box-shadow: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.red {
+    background-color: hsl(0, 100%, 20%);
+}
+
+.red-on {
+    background-color: #FF0800;
+    box-shadow: 0 0 15px #FF0800;
+}
+
+.orange {
+    background-color: #8f4700;
+}
+
+.orange-on {
+    background-color: #FE5A1D;
+    box-shadow: 0 0 15px #FE5A1D
+}
+
+.green {
+    background-color: #1c6e45
+}
+
+.green-on {
+    background-color: #00FF40;
+    box-shadow: 0 0 15px #00FF40;
+}
+
+#change-clr-btn {
+    border: none;
+    padding: 0.6rem 2.5rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: hsl(196, 100%, 33%);
+    font-size: 1.15rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    border-radius: .5rem;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+#change-clr-btn:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+
+#change-clr-btn:hover{
+    background-color: hsl(196, 100%, 43%) ;
+}
