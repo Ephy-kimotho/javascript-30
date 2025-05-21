@@ -28,11 +28,11 @@ Each folder contains:
 
 ## 🔗 Live Projects
 
-| Day | Project       | Live Demo                                                           |
-| --- | ------------- | ------------------------------------------------------------------- |
-| 01  | Drum Kit      | [View](https://ephy-kimotho.github.io/javascript-30/day1-drum-kit/) |
-| 02  | JS +CSS clock | _comming soon_                                                      |
-| ... | ...           | ...                                                                 |
+| Day | Project       | Live Demo                                                                |
+| --- | ------------- | ------------------------------------------------------------------------ |
+| 01  | Drum Kit      | [View](https://ephy-kimotho.github.io/javascript-30/day1-drum-kit/)      |
+| 02  | traffic light | [View](https://ephy-kimotho.github.io/javascript-30/day2-traffic-light/) |
+| ... | ...           | ...                                                                      |
 
 ---
 
